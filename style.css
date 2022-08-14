@@ -21,6 +21,11 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color:hsl(158, 36%, 37%);
+}
+
 .card {
     display: flex;
     width: 600px;
@@ -107,6 +112,13 @@ p {
 .btn i {
     font-size: 1.2rem;
     margin-right: 1rem;
+}
+
+.attribution{
+position: absolute;
+display: flex;
+bottom: 50px;
+white-space: pre;
 }
 
 @media (max-width: 768px) {
